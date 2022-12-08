@@ -41,10 +41,10 @@ controleArray.forEach((elemento) => {
         atualizaEstatisticas(evento.target.dataset.peca);
         
     })    
-})
+})  
 
 function manipulaDados(operacao, controle) {
-    const peca = controle.querySelector('[data-contador]');
+    const peca = controle.querySelector("[data-contador]");
 
     if(operacao === "-"){
         peca.value = parseInt(peca.value) - 1
